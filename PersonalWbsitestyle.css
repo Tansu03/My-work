@@ -1,12 +1,14 @@
 body {
     margin: 0;
     padding-top: 800px;
+    text-align: center;
 }
 
 .profile {
     width: 175px;
     margin-bottom: 50px;
     border-radius: 50%;
+    height: 200px;
 }
 
 #welcome {
@@ -25,6 +27,9 @@ body {
     height: 100%;
     z-index: 9;
 }
+
+
+
 
 
 
@@ -103,4 +108,13 @@ p {
 .links:hover{
     background-color: dodgerblue;
     
+    
+}
+a{
+    text-decoration: none;
+
+}
+
+.writings:hover{
+    color: antiquewhite;
 }
